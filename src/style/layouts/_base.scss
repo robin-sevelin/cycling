@@ -6,21 +6,19 @@
 
 body {
   position: relative;
-  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  height: 200px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: #77ba99;
 }
 
 main {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   max-width: 960px;
   margin: 0 auto;
   h2,
@@ -36,9 +34,9 @@ main {
 .my-bike {
   padding: 20px;
   .my-bike-container {
-    display: flex;
     .my-bike-img {
-      width: 100%;
+      display: flex;
+      justify-content: center;
     }
     .my-bike-text {
       padding: 20px;
@@ -50,14 +48,14 @@ main {
   padding: 20px;
   i {
     margin-inline-end: 10px;
+    color: orangered;
   }
 }
 
 footer {
-  background-color: lightcoral;
   height: 150px;
   width: 100%;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
