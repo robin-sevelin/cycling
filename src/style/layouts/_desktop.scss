@@ -1,8 +1,10 @@
 body {
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 main {
+  top: 100px;
+  position: relative;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 0.5fr);
@@ -10,7 +12,6 @@ main {
 
 .why-i-bike {
   grid-column: 1 / span 6;
-  background-color: lightcoral;
 }
 
 .my-bike-text {

@@ -4,7 +4,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav-bar {
@@ -42,7 +42,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: white;
 }
 
 @media (max-width: 768px) {
@@ -71,7 +71,7 @@ a {
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    background-color: #d7c0d0;
+    background-color: rgb(49, 40, 42);
     z-index: 2;
   }
 
