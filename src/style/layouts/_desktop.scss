@@ -1,8 +1,11 @@
+body {
+  padding-bottom: 0;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 0.5fr);
-  margin-bottom: 100px;
 }
 
 .why-i-bike {
