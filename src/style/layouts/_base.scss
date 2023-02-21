@@ -7,6 +7,7 @@
 body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
 header {
@@ -31,21 +32,19 @@ main {
   padding: 20px;
 }
 
-.my-bike {
+.my-bike-text {
   padding: 20px;
-  .my-bike-container {
-    .my-bike-img {
-      display: flex;
-      justify-content: center;
-    }
-    .my-bike-text {
-      padding: 20px;
-    }
-  }
+  background-color: aquamarine;
+}
+
+.my-bike-img {
+  padding: 20px;
+  background-color: cadetblue;
 }
 
 .advise {
   padding: 20px;
+  background-color: aqua;
   i {
     margin-inline-end: 10px;
     color: orangered;
