@@ -27,11 +27,16 @@ a:hover {
 }
 
 header {
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-image: url('/img/pexels-pavel-danilyuk-5807636.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 main {
