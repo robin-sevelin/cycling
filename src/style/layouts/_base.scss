@@ -8,6 +8,7 @@ body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+  padding-bottom: 350px;
 }
 
 header {
@@ -52,15 +53,36 @@ main {
 }
 
 footer {
-  height: 150px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  position: relative;
+  background-color: rgb(49, 40, 42);
+  color: white;
+}
+
+.contact,
+.social-media {
+  padding: 10px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  bottom: 0;
-  h2 {
-    margin-bottom: 20px;
+  span {
+    padding: 10px;
   }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-image: linear-gradient(90deg, #d200a2, #d488c2);
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 0.3s ease;
+  }
+}
+
+.contact a:hover,
+.social-media a:hover {
+  background-size: 100% 5px;
 }
