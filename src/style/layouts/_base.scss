@@ -6,17 +6,17 @@
 
 body {
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fira Code', monospace;
   min-height: 100vh;
-  padding-bottom: 350px;
-  background-color: antiquewhite;
+  padding-bottom: 299px;
+  background-color: #f5f7dc;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  background-image: linear-gradient(90deg, #d200a2, #d488c2);
+  background-image: linear-gradient(90deg, #bf4d4b, #cc8786);
   background-size: 0% 5px;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -28,13 +28,16 @@ a:hover {
 }
 
 header {
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-image: url('/img/pexels-pavel-danilyuk-5807636.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
-  background-color: rgb(49, 40, 42);
 }
 
 main {
@@ -50,18 +53,18 @@ main {
 
 .why-i-bike {
   padding: 20px;
-  background-color: lightcoral;
+  background-color: #ffff82;
 }
 
 .my-bike-text {
   padding: 20px;
-  background-color: white;
+  background-color: #bf4d4b;
+  color: white;
 }
 
 .my-bike-img {
   padding: 20px;
   background-color: white;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,10 +73,9 @@ main {
 
 .advise {
   padding: 20px;
-  background-color: aqua;
+  background-color: #b5d99c;
   i {
     margin-inline-end: 10px;
-    color: orangered;
   }
 }
 
