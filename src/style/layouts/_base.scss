@@ -45,8 +45,10 @@ main {
   max-width: 920px;
   margin: 0 auto;
   h2,
-  h3 {
-    margin-bottom: 20px;
+  h3,
+  p,
+  span {
+    padding: 10px;
   }
 }
 
