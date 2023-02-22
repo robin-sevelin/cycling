@@ -8,7 +8,7 @@ body {
   position: relative;
   font-family: 'Fira Code', monospace;
   min-height: 100vh;
-  padding-bottom: 299px;
+  padding-bottom: 300px;
   background-color: #f5f7dc;
 }
 
@@ -45,8 +45,7 @@ main {
   max-width: 920px;
   margin: 0 auto;
   h2,
-  h3,
-  p {
+  h3 {
     margin-bottom: 20px;
   }
 }
