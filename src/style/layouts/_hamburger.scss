@@ -29,10 +29,6 @@ a {
   transition: 0.3s ease;
 }
 
-.nav-link:hover {
-  color: hotpink;
-}
-
 .hamburger {
   display: none;
   cursor: pointer;
@@ -45,10 +41,11 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: white;
+  background-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .hamburger {
     display: block;
   }
@@ -63,19 +60,22 @@ a {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #bf4d4b;
   }
 
   .nav-menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
-    top: 200px;
+    top: 250px;
     gap: 0;
     flex-direction: column;
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    background-color: #d7c0d0;
+    background-color: rgb(49, 40, 42);
+    background-color: rgb(49, 40, 42);
     z-index: 2;
+    opacity: 0;
   }
 
   .nav-item {
@@ -84,5 +84,6 @@ a {
 
   .nav-menu.active {
     left: 0;
+    opacity: 1;
   }
 }

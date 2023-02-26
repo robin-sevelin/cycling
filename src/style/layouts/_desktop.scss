@@ -1,0 +1,37 @@
+main {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 0.5fr);
+}
+
+.why-i-bike {
+  grid-column: 1 / span 6;
+}
+
+.my-bike-text {
+  grid-column: 1 / span 4;
+}
+
+.my-bike-img {
+  grid-column: 5 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advise {
+  grid-column: 1 / span 6;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(49, 40, 42);
+  color: white;
+}
