@@ -1,4 +1,4 @@
-import 'style/style.css';
+import './style/style.css';
 
 const hamburger: HTMLElement = document.querySelector(
   '.hamburger'
